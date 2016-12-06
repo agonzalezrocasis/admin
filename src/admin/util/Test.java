@@ -5,10 +5,17 @@
  */
 package admin.util;
 
+import java.sql.Connection;
+
 /**
  *
  * @author Alberto
  */
 public class Test {
+    
+    public static void main(String[] args) {
+        Connection conn = DbConnection.getConnection();
+        
+    }
     
 }
